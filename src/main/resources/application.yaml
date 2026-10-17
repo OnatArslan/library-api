@@ -1,3 +1,12 @@
 spring:
   application:
     name: library-api
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+
+library:
+  loan:
+    period-days: 14
+
